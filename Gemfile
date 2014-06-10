@@ -42,6 +42,9 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+# Use Redis as cache layer
+gem 'redis'
+
 group :test, :development do
 	gem 'rspec-rails', "~> 2.14"
 end
